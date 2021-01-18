@@ -15,21 +15,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version information for the quizaccess_passgrade plugin.
+ * Strings for the quizaccess_passgrade plugin.
  *
  * @package   quizaccess_passgrade
- * @copyright 2013 Catalyst It
- * @copyright 2021 Wunderbyte Gmbh <info@wudnerbyte.at>
+ * @copyright 2013 Catalyst IT
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-
 defined('MOODLE_INTERNAL') || die();
 
-
-$plugin->version   = 2021011800;
-$plugin->requires  = 2011120500;
-$plugin->cron      = 0;
-$plugin->component = 'quizaccess_passgrade';
-$plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = 'v1.1 for Moodle 3.0+';
+$string['pluginname'] = 'Pass grade quiz access rule';
+$string['preventpassed'] = 'Benötige eine Note geringer als';
+$string['preventpassed_help'] = 'Studierende müssenen eine Bewertung geringer festgesetzt haben. Studierende, die das Quiz bereits absolviert haben, sollen keinen Zugang mehr haben.';
+$string['accessprevented'] = 'Du hast dieses Quiz bereits absolviert und hast keinen weiteren Versuch.';
